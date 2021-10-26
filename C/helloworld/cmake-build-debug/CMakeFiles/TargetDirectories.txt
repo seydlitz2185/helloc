@@ -1,0 +1,13 @@
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/select_sort_lite.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/select_sort.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/bubble.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/PrintPrimeNumbers.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/saddlePoint.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/printftest.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/memchr.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/poiteroverflowTest.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/saddlePoint_csdn.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/exp_test.dir
+/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/CMakeFiles/isPrime_zju.dir

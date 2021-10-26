@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="helloworld"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="select_sort_lite">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/select_sort_lite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 select_sort_lite"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="select_sort_lite/fast">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/select_sort_lite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 select_sort_lite/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="select_sort">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/select_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 select_sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="select_sort/fast">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/select_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 select_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bubble">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/bubble" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubble"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bubble/fast">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/bubble" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubble/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PrintPrimeNumbers">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/PrintPrimeNumbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrintPrimeNumbers"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PrintPrimeNumbers/fast">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/PrintPrimeNumbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrintPrimeNumbers/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="saddlePoint">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/saddlePoint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 saddlePoint"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="saddlePoint/fast">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/saddlePoint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 saddlePoint/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printftest">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/printftest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 printftest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printftest/fast">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/printftest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 printftest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memchr">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/memchr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 memchr"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memchr/fast">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/memchr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 memchr/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="poiteroverflowTest">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/poiteroverflowTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 poiteroverflowTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="poiteroverflowTest/fast">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/poiteroverflowTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 poiteroverflowTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="saddlePoint_csdn">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/saddlePoint_csdn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 saddlePoint_csdn"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="saddlePoint_csdn/fast">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/saddlePoint_csdn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 saddlePoint_csdn/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp_test">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/exp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp_test/fast">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/exp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="isPrime_zju">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/isPrime_zju" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 isPrime_zju"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="isPrime_zju/fast">
+				<Option output="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/isPrime_zju" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 isPrime_zju/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stevenyu/CLionProjects/C/helloworld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/PrintPrimeNumbers.c">
+			<Option target="PrintPrimeNumbers"/>
+		</Unit>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/bubble.c">
+			<Option target="bubble"/>
+		</Unit>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/exp_test.c">
+			<Option target="exp_test"/>
+		</Unit>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/isPrime_zju.c">
+			<Option target="isPrime_zju"/>
+		</Unit>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/memchr.c">
+			<Option target="memchr"/>
+		</Unit>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/poiteroverflowTest.c">
+			<Option target="poiteroverflowTest"/>
+		</Unit>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/printftest.c">
+			<Option target="printftest"/>
+		</Unit>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/saddlePoint.c">
+			<Option target="saddlePoint"/>
+		</Unit>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/saddlePoint_csdn.c">
+			<Option target="saddlePoint_csdn"/>
+		</Unit>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/select_sort.c">
+			<Option target="select_sort"/>
+		</Unit>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/select_sort_array.c">
+			<Option target="select_sort_lite"/>
+		</Unit>
+		<Unit filename="/Users/stevenyu/CLionProjects/C/helloworld/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

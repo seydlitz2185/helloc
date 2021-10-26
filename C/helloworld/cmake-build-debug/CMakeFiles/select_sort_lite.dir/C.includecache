@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/stevenyu/CLionProjects/C/helloworld/select_sort_array.c
+stdio.h
+/Users/stevenyu/CLionProjects/C/helloworld/stdio.h
+stdlib.h
+/Users/stevenyu/CLionProjects/C/helloworld/stdlib.h
+
