@@ -3,4 +3,4 @@ project(CLionCPPDemo_testR)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(CLionCPPDemo_testR main.cpp )
+add_executable(CLionCPPDemo_testR main.cpp)

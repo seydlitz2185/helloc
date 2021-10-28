@@ -54,10 +54,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stevenyu/CLionProjects/CLionCPPDemo_testR
+CMAKE_SOURCE_DIR = /Users/stevenyu/CLionProjects/CPP/CLionCPPDemo_testR
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stevenyu/CLionProjects/CLionCPPDemo_testR/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/stevenyu/CLionProjects/CPP/CLionCPPDemo_testR/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/CLionCPPDemo_testR.dir/clean
 CMakeFiles/CLionCPPDemo_testR.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLionCPPDemo_testR.dir/build.make CMakeFiles/CLionCPPDemo_testR.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CLionCPPDemo_testR.dir/build.make CMakeFiles/CLionCPPDemo_testR.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stevenyu/CLionProjects/CLionCPPDemo_testR/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target CLionCPPDemo_testR"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stevenyu/CLionProjects/CPP/CLionCPPDemo_testR/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target CLionCPPDemo_testR"
 .PHONY : CMakeFiles/CLionCPPDemo_testR.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CLionCPPDemo_testR.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevenyu/CLionProjects/CLionCPPDemo_testR/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevenyu/CLionProjects/CPP/CLionCPPDemo_testR/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CLionCPPDemo_testR.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevenyu/CLionProjects/CLionCPPDemo_testR/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stevenyu/CLionProjects/CPP/CLionCPPDemo_testR/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CLionCPPDemo_testR.dir/rule
 
 # Convenience name for target.

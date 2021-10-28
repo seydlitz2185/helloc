@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/stevenyu/CLionProjects/CLionCPPDemo_testR/b.cpp
+/Users/stevenyu/CLionProjects/CPP/CLionCPPDemo_testR/b.cpp
 iostream
 -
 iomanip
 -
+fstream
+-
 
-/Users/stevenyu/CLionProjects/CLionCPPDemo_testR/main.cpp
+/Users/stevenyu/CLionProjects/CPP/CLionCPPDemo_testR/main.cpp
 iostream
 -
 b.cpp
-/Users/stevenyu/CLionProjects/CLionCPPDemo_testR/b.cpp
+/Users/stevenyu/CLionProjects/CPP/CLionCPPDemo_testR/b.cpp
 

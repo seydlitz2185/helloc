@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		16A5F0762727F8010014C24E /* CPPdemo06_testGtest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPdemo06_testGtest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A5F0762727F8010014C24E /* HWdemo01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HWdemo01; sourceTree = BUILT_PRODUCTS_DIR; };
 		16A5F0792727F8010014C24E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		16A5F0802727F9AD0014C24E /* simpletest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simpletest.cpp; sourceTree = "<group>"; };
 		16A5F0832727FA8F0014C24E /* AddTwoIntegers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoIntegers.cpp; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		16A5F06D2727F8010014C24E = {
 			isa = PBXGroup;
 			children = (
-				16A5F0782727F8010014C24E /* CPPdemo06_testGtest */,
+				16A5F0782727F8010014C24E /* demo01 */,
 				16A5F0772727F8010014C24E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,27 +52,28 @@
 		16A5F0772727F8010014C24E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16A5F0762727F8010014C24E /* CPPdemo06_testGtest */,
+				16A5F0762727F8010014C24E /* HWdemo01 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16A5F0782727F8010014C24E /* CPPdemo06_testGtest */ = {
+		16A5F0782727F8010014C24E /* demo01 */ = {
 			isa = PBXGroup;
 			children = (
 				16A5F0792727F8010014C24E /* main.cpp */,
 				16A5F0802727F9AD0014C24E /* simpletest.cpp */,
 				16A5F0832727FA8F0014C24E /* AddTwoIntegers.cpp */,
 			);
-			path = CPPdemo06_testGtest;
+			name = demo01;
+			path = HWdemo01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16A5F0752727F8010014C24E /* CPPdemo06_testGtest */ = {
+		16A5F0752727F8010014C24E /* HWdemo01 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16A5F07D2727F8010014C24E /* Build configuration list for PBXNativeTarget "CPPdemo06_testGtest" */;
+			buildConfigurationList = 16A5F07D2727F8010014C24E /* Build configuration list for PBXNativeTarget "HWdemo01" */;
 			buildPhases = (
 				16A5F0722727F8010014C24E /* Sources */,
 				16A5F0732727F8010014C24E /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = CPPdemo06_testGtest;
+			name = HWdemo01;
 			productName = CPPdemo06_testGtest;
-			productReference = 16A5F0762727F8010014C24E /* CPPdemo06_testGtest */;
+			productReference = 16A5F0762727F8010014C24E /* HWdemo01 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 16A5F0712727F8010014C24E /* Build configuration list for PBXProject "CPPdemo06_testGtest" */;
+			buildConfigurationList = 16A5F0712727F8010014C24E /* Build configuration list for PBXProject "HWdemo01" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16A5F0752727F8010014C24E /* CPPdemo06_testGtest */,
+				16A5F0752727F8010014C24E /* HWdemo01 */,
 			);
 		};
 /* End PBXProject section */
@@ -282,7 +283,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16A5F0712727F8010014C24E /* Build configuration list for PBXProject "CPPdemo06_testGtest" */ = {
+		16A5F0712727F8010014C24E /* Build configuration list for PBXProject "HWdemo01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16A5F07B2727F8010014C24E /* Debug */,
@@ -291,7 +292,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16A5F07D2727F8010014C24E /* Build configuration list for PBXNativeTarget "CPPdemo06_testGtest" */ = {
+		16A5F07D2727F8010014C24E /* Build configuration list for PBXNativeTarget "HWdemo01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16A5F07E2727F8010014C24E /* Debug */,
