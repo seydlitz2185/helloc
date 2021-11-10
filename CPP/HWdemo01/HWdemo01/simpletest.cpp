@@ -12,6 +12,7 @@ namespace  {
  TEST(TestingTest, AddVector) {
     double i1 = INTMAX_MAX;
     double i2 = 5;
+     AddTwoIntegers b =AddTwoIntegers();
     AddTwoIntegers a(i1,i2);
     EXPECT_DOUBLE_EQ(a.aPlusB(), i1+i2);
     EXPECT_DOUBLE_EQ(a.aMinusB(),i1-i2);

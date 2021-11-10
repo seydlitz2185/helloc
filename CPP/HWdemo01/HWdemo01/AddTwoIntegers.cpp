@@ -37,7 +37,7 @@ void AddTwoIntegers::insertIntegers(double &a){
     catch(int i){
         cout<<"无效输入,请重新输入\n";
         rewind(stdin);
-        insertIntegers(a);
+        AddTwoIntegers::insertIntegers(a);
     }
 }
 
