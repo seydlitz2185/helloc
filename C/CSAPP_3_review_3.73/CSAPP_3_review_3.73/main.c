@@ -6,18 +6,11 @@
 //
 
 #include <stdio.h>
-
-int tmult_ok1(long x, long y ,long* dest){
-    long result = 0;
+#include <stdint.h>
+int32_t tmult_ok1(int32_t x, int32_t y ,int32_t * dest){
+    int32_t result = 0;
     *dest = x*y;
     asm("setae %al");
     return result;
 }
 
-int main(int argc, const char * argv[]) {
-    
-    long *dest;
-    tmult_ok1(10,9,dest);
-    printf("%d",*dest);
-    return 0;
-}
