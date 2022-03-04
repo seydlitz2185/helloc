@@ -27,8 +27,9 @@ int main(int argc, const char * argv[]) {
     std::cout << c << '\n';
     std::cout << d << '\n';
     std::cout << df <<'\n';
-//    std::cout << sizeof(s) << '\n';
+    std::cout << ((sizeof(int))<<3) << '\n';
 //    std::cout << sizeTest(s)<<std::endl;
+
     return 0;
 }
 
