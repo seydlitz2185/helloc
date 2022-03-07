@@ -9,6 +9,8 @@
 #include <stdio.h>
 #include <limits.h>
 #include <assert.h>
+#include <memory.h>
+#include <stdlib.h>
 /*2.64*/
 int any_odd_one(unsigned x){
     return !!(0x55555555 & x);
@@ -59,6 +61,32 @@ unsigned rotate_left(unsigned x , int n){
     int w = sizeof(int)<<3;
     return (x<<n) | x>>(w-n-1)>>1;
 }
+
+/*2.70*/
+int fits_bits(int x, int n){
+    int w = sizeof(int) << 3;
+      int offset = w - n;
+      return (x << offset >> offset) == x;
+}
+
+/*2.71*/
+typedef unsigned packed_t;
+int xbyte(packed_t word, int bytenum){
+    int max_bytenum = 3;
+    
+    return (int)word<< ((max_bytenum-bytenum)<<3)>>(max_bytenum<<3) ;
+}
+
+/*2.72*/
+void copy_int(int val, void *buf, int maxbytes){
+    
+    if((int)(maxbytes - sizeof(val)) >=0){
+        memcpy(buf, (void*) &val, sizeof(val));
+        printf("suc\n");
+    }
+}
+
+/*2.73*/
 int main(int argc, const char * argv[]) {
     
     assert(!any_odd_one(0xAAAAAAAA));
@@ -68,5 +96,10 @@ int main(int argc, const char * argv[]) {
     assert(int_size_is_32_for_16bit());
     printf("%x\n",lower_one_mask(31));
     printf("%x\n",rotate_left(0x12345678,0));
+    assert(fits_bits(0x7FFFFFFF,32));
+    printf("%x\n",xbyte(0xF2F4F6F8,2));
+    void* buf;
+    buf = (void*)malloc(100*sizeof(int));
+    copy_int(100, buf, 1);
     return 0;
 }
