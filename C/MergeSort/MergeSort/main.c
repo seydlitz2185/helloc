@@ -62,7 +62,7 @@ void merge(int* array,int* prefix, int* suffix,int length){
     int length_of_prefix = length/2;
     int length_of_suffix = length-length_of_prefix;
     while ((p_index < length_of_prefix) && (s_index <length_of_suffix)) {
-        if(*p < *s){
+       /* if(*p < *s){
             *a= *p;
             p_index++;
             p++;
@@ -71,7 +71,15 @@ void merge(int* array,int* prefix, int* suffix,int length){
             s_index++;
             s++;
         }
-        a++;
+	*/
+	/*condition transfer*/
+	int task = *p < *s;
+	*a  = task ? *p : *s;
+	s_index += task;
+	s += task;
+	p_index += (1 - task);
+        p += (1-task);
+	a++;
     }
     
 
