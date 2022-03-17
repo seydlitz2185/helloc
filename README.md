@@ -1,2 +1,2 @@
 # helloc
-Learning Cpp
+c, cpp, cmake
