@@ -11,6 +11,7 @@
 #include <assert.h>
 #include <memory.h>
 #include <stdlib.h>
+#include <stdint.h>
 /*2.64*/
 int any_odd_one(unsigned x){
     return !!(0x55555555 & x);
