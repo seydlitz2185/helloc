@@ -1,0 +1,2 @@
+myt: type.h t.c mysum.c
+	gcc -o myt t.c mysum.c

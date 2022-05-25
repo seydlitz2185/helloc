@@ -1,0 +1,20 @@
+#-----mk4 file-----
+CC = gcc
+CFLAGS = -I.
+OBJS = t.o mysum.o
+As = as #assume we have .s files in assembly also
+DEFS = type.h #list all .h file in DEFS
+
+.s.o:	#for each fname.o, assemble fname.s into fname.o
+	$(As) -o $< -o $@	#-o $@ REQUIRED for .s files
+.c.o:	#for each fname.o, compile fname.c into fname.o
+	$(CC) -c $< -o $@	#-o $@ optional for .c files
+%.o: %.c $(DEFS) #for all .c files : if its .c or .h files changed
+	$(CC) -c -o $@ $< #ONLY compile corresponding .c file again
+
+myt : $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $^
+
+clean: 
+	rm -f *.o 2>/dev/null
+	rm -f myt
