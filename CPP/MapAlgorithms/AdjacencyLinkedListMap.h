@@ -1,0 +1,4 @@
+#include <iostream>
+
+class LinkedListNode {
+	}
